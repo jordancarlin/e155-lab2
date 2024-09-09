@@ -7,7 +7,7 @@ module top (
   input  logic [3:0] s0, s1,
   output logic [4:0] leds,
   output logic [6:0] segs,
-  output logic disp0, disp1
+  output logic       disp0, disp1
 );
 
   // Internal logic
