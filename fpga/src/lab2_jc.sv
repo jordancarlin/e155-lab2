@@ -15,5 +15,5 @@ module lab2_jc (
 	HSOSC hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(clk));
 
 	// Main verilog module
-	top top (.*);
+	top top (.reset(0'b0), .*);
 endmodule

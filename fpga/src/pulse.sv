@@ -3,7 +3,7 @@
 // Pulse module that toggles outputs based on a configuirable frequency signal
 
 module pulse #(parameter THRESHOLD = 1000) (
-  input  logic       clk,
+  input  logic       clk, reset,
   input  logic [3:0] s0, s1,
   output logic [3:0] s,
   output logic       disp0, disp1
@@ -22,6 +22,9 @@ module pulse #(parameter THRESHOLD = 1000) (
       disp0 <= ~disp0;
       s = disp0 ? s0 : s1;
       counter <= 0;
+    end else if (reset) begin
+      counter <= 0;
+      disp0 <= 0;
     end else
       counter <= counter + 1;
   end

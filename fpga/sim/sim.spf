@@ -1,0 +1,13 @@
+<RadiantSimulationProject version="2.0" path=".." simType="QuestaSim Qrun" stage="0" name="sim" language="1">
+    <Source worklib="work" path="../src/adder.sv" include="none" type="VERILOG" langstandard="System Verilog"/>
+    <Source worklib="work" path="../src/lab2_jc.sv" include="none" type="VERILOG" langstandard="System Verilog"/>
+    <Source worklib="work" path="../src/pulse.sv" include="none" type="VERILOG" langstandard="System Verilog"/>
+    <Source worklib="work" path="../src/seg_decoder.sv" include="none" type="VERILOG" langstandard="System Verilog"/>
+    <Source worklib="work" path="../src/top.sv" include="none" type="VERILOG" langstandard="System Verilog"/>
+    <Source worklib="work" path="../testbench/lab2_tb.sv" include="none" type="VERILOG" langstandard="System Verilog"/>
+    <SimLib value="pmi_work ovi_ice40up"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <Udo value=""/>
+    <TopModule name="lab2_tb" instance="" language="VERILOG"/>
+</RadiantSimulationProject>
