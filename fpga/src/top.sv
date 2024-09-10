@@ -17,7 +17,7 @@ module top (
   adder adder (.s0, .s1, .sum(leds));
 
   // Toggle active display
-  pulse #(20000000) pulse (.clk, .disp0, .disp1, .s, .s0, .s1);
+  pulse #(100000) pulse (.clk, .disp0, .disp1, .s, .s0, .s1);
 
   // Seven-segment display decoder
   seg_decoder seg_decoder (.s, .segs(segs));
