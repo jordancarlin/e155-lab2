@@ -8,7 +8,7 @@
 
 module lab2_tb();
   // Set up test signals
-  logic        clk;
+  logic        clk, reset;
   logic [3:0]  s0, s1;
   logic [4:0]  leds;
   logic [6:0]  segs;
@@ -26,7 +26,7 @@ module lab2_tb();
 
   // Apply test vectors
   initial begin
-    #12;
+    reset = 1; #27; reset = 0;
     s0=4'b0000; s1=4'b0000; #20;
     s0=4'b0001; s1=4'b0000; #20;
     s0=4'b0000; s1=4'b0001; #20;
