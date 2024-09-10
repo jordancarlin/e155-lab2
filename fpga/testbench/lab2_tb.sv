@@ -29,7 +29,7 @@ module lab2_tb();
   //  - Load the testvectors
   //  - Pulse the reset line (if applicable)
   initial begin
-    $readmemb("lab1_testvectors.tv", testvectors, 0, `N_TV - 1);
+    $readmemb("lab2_testvectors.tv", testvectors, 0, `N_TV - 1);
     vectornum = 0; errors = 0;
   end
 
