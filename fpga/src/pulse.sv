@@ -24,6 +24,7 @@ module pulse #(parameter THRESHOLD = 1000) (
       counter <= 0;
     end else if (reset)
       counter <= 0;
+      disp0 <= 0;
     else
       counter <= counter + 1;
   end
