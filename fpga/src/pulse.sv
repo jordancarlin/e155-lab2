@@ -22,9 +22,9 @@ module pulse #(parameter THRESHOLD = 1000) (
       disp0 <= ~disp0;
       s = disp0 ? s0 : s1;
       counter <= 0;
-    else if (reset)
+    end else if (reset)
       counter <= 0;
-    end else
+    else
       counter <= counter + 1;
   end
 
