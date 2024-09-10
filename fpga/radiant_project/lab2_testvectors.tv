@@ -1,0 +1,12 @@
+// lab2_testvectors.tv
+// Jordan Carlin
+// jcarlin@hmc.edu
+// 7 September 2024
+//
+// Testvectors for the top level lab2_jc module to check operation
+// of 7-segment display decoder and adder.
+//
+// Vectors of format s0[3:0]_s1[3:0]_segs[6:0]_dis0_disp1_leds
+0000_0000_1000000_1_0_00000
+0000_0000_1000000_0_1_00000
+
