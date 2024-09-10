@@ -12,6 +12,7 @@ module lab2_tb();
   logic [3:0]  s0, s1;
   logic [4:0]  leds;
   logic [6:0]  segs;
+  logic        disp0, disp1;
 
   // Instantiate the device under test
   top dut(.*);
