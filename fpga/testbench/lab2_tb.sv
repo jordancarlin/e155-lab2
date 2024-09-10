@@ -23,7 +23,6 @@ module lab2_tb();
     clk = 0; #5;
   end
 
-
   // Apply test vectors
   initial begin
     reset = 1; #27; reset = 0; #500
