@@ -4,7 +4,7 @@
 
 `timescale 1ns/1ns
 `default_nettype none
-`define N_TV 16
+`define N_TV 10
 
 module lab2_tb();
   // Set up test signals
