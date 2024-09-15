@@ -1,4 +1,4 @@
- // top.sv
+// sec_decoder.sv
 // Jordan Carlin, jcarlin@hmc.edu, 2 September 2024
 // 7-segment LED decoder
 
